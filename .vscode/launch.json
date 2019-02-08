@@ -5,16 +5,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - helloworld",
+            "name": "CodeLens (Launch) - test1",
             "request": "launch",
-            "mainClass": "helloworld",
+            "mainClass": "test1",
             "projectName": "Algorithm_84cd0056"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - test2",
+            "name": "CodeLens (Launch) - Test1",
             "request": "launch",
-            "mainClass": "test2"
+            "mainClass": "Test1",
+            "projectName": "Algorithm_84cd0056"
         },
         {
             "type": "java",
