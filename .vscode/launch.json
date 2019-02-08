@@ -1,5 +1,15 @@
 {
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "Algorithm_84cd0056"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - test2",
@@ -8,9 +18,10 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - helloworld",
+            "name": "Debug (Launch) - integratedTerminal Terminal",
             "request": "launch",
-            "mainClass": "helloworld"
+            "console": "integratedTerminal",
+            "mainClass": ""
         }
     ]
 }
