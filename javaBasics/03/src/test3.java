@@ -3,6 +3,9 @@ package src;
 /**
  * test3
  * 定义数组
+ * 
+ *      笔记：
+ * foreach循环不能拿到数组索引
  */
 public class test3 {
     public static void main(String[] args) {
@@ -18,15 +21,21 @@ public class test3 {
         /* int[] no = new int[]{1,2,3,4,5};  //定义的时候，直接初始化5个值 */
 
         //第三种
-        /* int[] no = {1,2,3,4,5}; */
+         /* int[] no = {1,2,3,4,5};  */
 
         //第四种
-        int[] no ;
-        no = new int[5];
+        /* int[] no ;
+        no = new int[5]; */
 
         //数组的遍历 （普通for循环）
-        for(int i = 0;i<no.length;i++){
+        /* for(int i = 0;i<no.length;i++){
             System.out.println(no[i]);
+        } */
+
+        //数组的遍历  （增强 for 循环  foreach）
+        int[] no = {1,2,3,4,5};
+        for(int x:no){
+            System.out.println(x);
         }
     }
 }
