@@ -21,4 +21,6 @@ public class test4 {
  * 笔记： 
  * 可变参数必须放到参数的最后一个
  * 可变参数当数组使用
+ * 
+ * lancelot.liang@zhitongguigu.com
  */

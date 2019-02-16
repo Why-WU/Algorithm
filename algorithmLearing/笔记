@@ -1,0 +1,38 @@
+Interview Process
+    Prepare resumes
+    Submit resumes
+    HR phone screen
+    Phone Interview
+    Onsite Interview
+    Offer Negotiation
+    Accept Offer
+
+leetcode/lintcode
+leetcode(前500道)
+    1-200题    写完,代码能力
+    201-450题  看题10min,思路
+    高频题,重点题
+__________________________________________________________________________________
+
+Time Complexity(时间复杂度)
+O 最差情况下的复杂度
+
+    Best Example:Quick Sort
+
+    How to calculate
+        Recursive deduction
+            Merge Sort:T(n)=2T(n/2)+cn      O(nlogn)  
+            Binary Search:T(n)=T(n/2)+c     O(logn)
+            Selection Sort:T(n)=T(n-1)+cn   O(n^2) 
+            Factorial:T(n)=T(n-1)+c         O(n)
+
+    Master Method
+        T(n)=aT(n/b)+n^c
+        if log(b)a >c, T(n) = n^(log(b)a)
+                   =          (n^c)*logn
+                   <          n^c
+__________________________________________________________________________________
+
+Array&ArrayList
+
+    Two Pointer
