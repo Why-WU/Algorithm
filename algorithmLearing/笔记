@@ -35,4 +35,16 @@ ________________________________________________________________________________
 
 Array&ArrayList
 
-    Two Pointer
+    Two Pointer!
+
+    Summary for k-Sum
+        1.Sort
+        2.Try first number,use(k-1)-Sum
+        3.Time Complexity
+
+    Merge Sorted Array
+__________________________________________________________________________________
+
+Linked List
+
+    
